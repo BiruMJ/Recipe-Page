@@ -1,5 +1,5 @@
 * { margin: 0; padding: 0; }
-body { padding: 100px 0; background: hsl(30, 54%, 90%); height: 100svh; }
+body { background: hsl(30, 54%, 90%); height: 100svh; }
 .card {
     max-width: 40%; background: hsl(0, 0%, 100%);
     margin: 0 auto; padding: 2rem; border-radius: 30px;
