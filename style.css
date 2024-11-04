@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; }
 body { background: hsl(30, 54%, 90%); height: 100svh; }
 .card {
-    max-width: 30%; background: hsl(0, 0%, 100%);
+    max-width: 50%; background: hsl(0, 0%, 100%);
     margin: 3rem auto; padding: 2rem; border-radius: 30px;
 }
 .card img {
