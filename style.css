@@ -1,0 +1,64 @@
+* { margin: 0; padding: 0; }
+body { background: hsl(30, 54%, 90%); height: 100svh; }
+.card {
+    max-width: 30%; background: hsl(0, 0%, 100%);
+    margin: 3rem auto; padding: 2rem; border-radius: 30px;
+}
+.card img {
+    display: block; max-width: 100%; border-radius: 15px;
+}
+h1, h2 { font-family: "Young Serif", serif; font-weight: 400; }
+h1 { font-size: 1.6rem; color: hsl(24, 5%, 18%); margin: 20px 0 10px; }
+h2 { color: hsl(14, 45%, 36%); margin: 20px 0 15px; }
+p, li { color: hsl(30, 10%, 34%); font-family: "Outfit", sans-serif; font-size: 1rem; }
+.paragraph { margin-bottom: 20px; }
+li { padding-bottom: 10px; margin-left: 20px; padding-left: 20px;}
+#preparation { background: hsl(330, 100%, 98%); padding: 20px; }
+#preparation h2 {
+    font-family: "Outfit", sans-serif; color: hsl(332, 51%, 32%);
+    font-weight: 600; font-size: 1rem; margin: 0 0 10px;
+}
+#preparation li:last-child { padding-bottom: 0; }
+.prepare-list-style li::marker { color: hsl(332, 51%, 32%); }
+.list {
+    border-bottom: 1px solid hsl(30, 18%, 87%); padding: 0 0.5rem 20px;
+}
+.order {
+    list-style: none; counter-reset: step;
+}
+.order li {
+    padding-bottom: 10px; padding-left: 0; counter-increment: step; margin-left: 0;
+}
+.order li::before {
+    content: counter(step) ". "; font-weight: bold;
+    color: hsl(14, 45%, 36%); font-size: 1rem; margin-right: 10px;
+}
+article {
+    display: flex; border-bottom: 1px solid hsl(30, 18%, 87%); padding: 10px 0;
+}
+article p { width: 60%; margin: 0;}
+article:last-child { border: none; }
+article .nutrient { margin-left: 30px; }
+article .calories { font-weight: bold; color: hsl(14, 45%, 36%); }
+#attribution { 
+    font-size: 1rem; text-align: center; padding-bottom: 2rem;
+}
+#attribution a { color: hsl(14, 45%, 36%); transition: color 0.3s ease, font-weight 0.2s ease;}
+#attribution a:hover { font-weight: 600; }
+@media (max-width: 769px) {
+    .card {
+        border-radius: 0; max-width: 100%; margin: 0; padding: 0; padding-bottom: 2rem;
+    }
+    .card img { border-radius: 0; }
+    section { margin: 0 1rem 0; padding: 0 0.5rem; }
+    #attribution { padding: 1rem 0;}
+    #attribution p { font-size: 14px;}
+}
+@media (min-width: 2560px){
+    .card {
+        padding: 3rem;
+    }
+    p, li, .order li::before {
+        font-size: 1.5rem;
+    }
+}
