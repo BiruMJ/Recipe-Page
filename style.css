@@ -32,6 +32,7 @@ article .calories { font-weight: bold; color: hsl(14, 45%, 36%); }
 #attribution a { color: hsl(14, 45%, 36%); transition: color 0.3s ease, font-weight 0.2s ease;}
 #attribution a:hover { font-weight: 600; }
 @media (max-width: 769px) {
+    body { padding: 0 }
     .card { border-radius: 0; max-width: 100%; margin: 0; padding: 0; padding-bottom: 2rem; }
     p, li { font-size: 1rem; padding-left: 0;}
     .order li { line-height: 1.5rem; }
