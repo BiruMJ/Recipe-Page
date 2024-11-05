@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <title>Delicious Omelette Recipe in 5 mins</title>
+  <title>Delicious Omelette Recipe</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
     <div class="card">
-      <img src="./assets/images/image-omelette.jpeg" alt="A savoury omelette on a plate with a slice of bread.">
+      <img src="./assets/images/image-omelette.jpeg" alt="A savory omelette on a plate with a slice of bread.">
       <section>
         <h1>Simple Omelette Recipe</h1>
         <p class="paragraph">An easy and quick dish, perfect for any meal. The classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
@@ -46,24 +46,28 @@
         </ol>
       </section>
       <section>
-        <h2>Nutrition</h2>
-        <p class="paragraph">The table shows nutritional values per serving without the additional fillings.</p>
-        <article>
-          <p class="nutrient">Calories</p>
-          <p class="calories">277kcal</p>
-        </article>
-        <article>
-          <p class="nutrient">Carbs</p>
-          <p class="calories">0g</p>
-        </article>
-        <article>
-          <p class="nutrient">Protein</p>
-          <p class="calories">20g</p>
-        </article>
-        <article>
-          <p class="nutrient">Fat</p>
-          <p class="calories">22g</p>
-        </article>
+        <div class="nutrition-table">
+          <h2>Nutrition</h2>
+          <p>The table shows nutritional values per serving without the additional fillings.</p>
+          <table>
+              <tr>
+                  <td>Calories</td>
+                  <td>277kcal</td>
+              </tr>
+              <tr>
+                  <td>Carbs</td>
+                  <td>0g</td>
+              </tr>
+              <tr>
+                  <td>Protein</td>
+                  <td>20g</td>
+              </tr>
+              <tr>
+                  <td class="no-border">Fat</td>
+                  <td class="no-border">22g</td>
+              </tr>
+          </table>
+      </div>
       </section>
     </div>
   </main>
