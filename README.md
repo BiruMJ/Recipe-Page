@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -15,16 +15,17 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-This is a simple recipe page that includes ingredients, instructions and nutrition.
+This is a simple recipe page which includes ingredients, instructions and nutrition.
 
 ### Screenshot
 
-![](./Solution%20Screenshot.png)
+![Solution Mobile](./Screenshots/Screenshot%20Mobile.png)
+![Solution Desktop](./Screenshots/Screenshot%20Desktop.png)
 
 ### Links
 
-- Solution URL: (http://127.0.0.1:3000/Basics-HTML&CSS/Recipe%20page/recipe-page-main/index.html)
-- Live Site URL: (https://birumj.github.io/Recipe-Page/)
+- Solution URL: [http://127.0.0.1:3000/Basics%20HTML%20&%20CSS/Recipe%20page/recipe-page-main/index.html]
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
 
@@ -36,7 +37,7 @@ This is a simple recipe page that includes ingredients, instructions and nutriti
 
 ### What I learned
 
-This project is mostly about the correct usage of margins and paddings. I have learnt a new way of changing the colour of list elements bullets with ChatGPT and how to concise my CSS code. Moreover, I have made my website responsive from small to large 4K screens.
+This project is mostly about the correct usage of margins and paddings. I have learnt a new way of changing the color of list elements bullets with ChatGPT, and also how to concise my CSS code. Moreover, I have also made my website responsive from the small screens to large 4k screens.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -47,20 +48,10 @@ This project is mostly about the correct usage of margins and paddings. I have l
           <p class="calories">277kcal</p>
 </article>
 ```
-```css
-#preparation li:last-child { padding-bottom: 0; }
-.prepare-list-style li::marker { color: hsl(332, 51%, 32%); }
-.order {
-    list-style: none; counter-reset: step;
-}
-.order li::before {
-    content: counter(step) ". "; font-weight: bold;
-}
-```
 
 ### Continued development
 
-I want to continue focusing on the correct usage of padding and margin properties because this is where I spend more time. Furthermore, I want to learn more about how to concisely code my CSS.
+I want to continue focusing on the correct usage of padding and margin properties because I think this is where I spend more time on it. Furthermore, I want to learn more about how I can concise my CSS codes.
 
 ## Author
 
@@ -70,4 +61,4 @@ I want to continue focusing on the correct usage of padding and margin propertie
 
 ## Acknowledgments
 
-I use ChatGPT and Copilot whenever I feel stuck. I also take inspiration from related websites to make my code better.
+I use ChatGPT and Copilot whenever I feel I am stucked. Also, I view some related websites for inspiration and make my coding more good.
