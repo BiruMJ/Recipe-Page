@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-    max-width: 600px;
+    max-width: 700px;
     background: hsl(0, 0%, 100%);
     margin: 100px auto 50px;
     padding: 3rem;
@@ -228,3 +228,4 @@ td:last-child {
         padding: 0 1rem 3rem;
     }
 }
+
